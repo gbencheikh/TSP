@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Heuristique2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Heuristique2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="C:\Users\Ghita\Documents\codeblock\Heuristique2\toy_instances\toy05.tsp" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Heuristique2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Heuristique1.h" />
+		<Unit filename="Heuristique2.h" />
+		<Unit filename="TSP.h" />
+		<Unit filename="instances\.DS_Store" />
+		<Unit filename="instances\a280.tsp" />
+		<Unit filename="instances\berlin52.tsp" />
+		<Unit filename="instances\bier127.tsp" />
+		<Unit filename="instances\brd14051.tsp" />
+		<Unit filename="instances\eil101.tsp" />
+		<Unit filename="instances\eil51.tsp" />
+		<Unit filename="instances\eil76.tsp" />
+		<Unit filename="instances\gil262.tsp" />
+		<Unit filename="instances\kroA100.tsp" />
+		<Unit filename="instances\kroA150.tsp" />
+		<Unit filename="instances\kroA200.tsp" />
+		<Unit filename="instances\kroB100.tsp" />
+		<Unit filename="instances\kroB150.tsp" />
+		<Unit filename="instances\kroB200.tsp" />
+		<Unit filename="instances\kroC100.tsp" />
+		<Unit filename="instances\kroD100.tsp" />
+		<Unit filename="instances\kroE100.tsp" />
+		<Unit filename="instances\lin105.tsp" />
+		<Unit filename="instances\lin318.tsp" />
+		<Unit filename="instances\linhp318.tsp" />
+		<Unit filename="instances\nrw1379.tsp" />
+		<Unit filename="instances\pr1002.tsp" />
+		<Unit filename="instances\pr107.tsp" />
+		<Unit filename="instances\pr124.tsp" />
+		<Unit filename="instances\pr136.tsp" />
+		<Unit filename="instances\pr144.tsp" />
+		<Unit filename="instances\pr152.tsp" />
+		<Unit filename="instances\pr226.tsp" />
+		<Unit filename="instances\pr2392.tsp" />
+		<Unit filename="instances\pr264.tsp" />
+		<Unit filename="instances\pr299.tsp" />
+		<Unit filename="instances\pr439.tsp" />
+		<Unit filename="instances\pr76.tsp" />
+		<Unit filename="instances\rat195.tsp" />
+		<Unit filename="instances\rat575.tsp" />
+		<Unit filename="instances\rat783.tsp" />
+		<Unit filename="instances\rat99.tsp" />
+		<Unit filename="instances\st70.tsp" />
+		<Unit filename="instances\ts225.tsp" />
+		<Unit filename="instances\tsp225.tsp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
